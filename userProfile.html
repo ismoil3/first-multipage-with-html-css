@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <h2 class="sidebar-title">Company</h2>
+            <ul>
+                <li class=""><a href="/index.html">Dashboard</a></li>
+                <li class="active"><a href="/userProfile.html">User Profile</a></li>
+                <li><a href="/maps.html">Maps</a></li>
+                <li><a href="/notifications.html">Notifications</a></li>
+                <li><a href="/support.html">Support</a></li>
+            </ul>
+        </aside>
+
+        <div class="profile-page">
+            <header>
+                <h1>User Profile</h1>
+            </header>
+
+            <main class="profile-content">
+                <!-- Edit Profile Form -->
+                <div class="edit-profile">
+                    <div class="form-header">
+                        <h2>Edit Profile</h2>
+                        <p>Complete your profile</p>
+                    </div>
+                    <form>
+                        <div class="form-row">
+                            <input type="text" placeholder="Company">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email address">
+                        </div>
+                        <div class="form-row">
+                            <input type="text" placeholder="First name">
+                            <input type="text" placeholder="Last name">
+                        </div>
+                        <div class="form-row">
+                            <input type="text" placeholder="Address">
+                        </div>
+                        <div class="form-row">
+                            <input type="text" placeholder="City">
+                            <input type="text" placeholder="Country">
+                            <input type="text" placeholder="Postal code">
+                        </div>
+                        <div class="form-row">
+                            <textarea placeholder="About me"></textarea>
+                        </div>
+                        <button type="submit" class="update-button">Update Profile</button>
+                    </form>
+                </div>
+
+                <!-- Profile Card -->
+                <div class="profile-card">
+                    <img src="https://ysm-res.cloudinary.com/image/upload/c_fill,f_auto,q_auto:eco,dpr_3,w_650/v1/yms/prod/8053508b-0d47-4c71-b92d-c5694b4cb968" alt="User Image" class="profile-image">
+                    <h3>Alec Thompson</h3>
+                    <p class="title">CEO / CO-FOUNDER</p>
+                    <p class="description">
+                        Don't be scared of the truth because we need to restart the human foundation in truth.
+                        And I love you like Kanye loves Kanye. I love Rick Owens’ bed design but the back is...
+                    </p>
+                </div>
+            </main>
+
+            <footer>
+                <p>2019 - made with love</p>
+                <nav>
+                    <a href="#">About</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Licenses</a>
+                </nav>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

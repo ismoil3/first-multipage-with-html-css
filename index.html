@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2 class="sidebar-title">Company</h2>
+      <ul>
+        <li class="active"><a href="#">Dashboard</a></li>
+        <li><a href="/userProfile.html">User Profile</a></li>
+        <li><a href="/maps.html">Maps</a></li>
+        <li><a href="/notifications.html">Notifications</a></li>
+        <li><a href="/support.html">Support</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header>
+        <h1>Dashboard</h1>
+      </header>
+
+      <!-- Stats Cards -->
+      <section class="stats-cards">
+        <div class="card green-gradient">
+          <h3>Used Space</h3>
+          <p class="value">49/50 GB</p>
+          <p class="info">Get more space...</p>
+        </div>
+        <div class="card yellow-gradient">
+          <h3>Revenue</h3>
+          <p class="value">$34,245</p>
+          <p class="info">Last 24 Hours</p>
+        </div>
+        <div class="card blue-gradient">
+          <h3>Fixed Issues</h3>
+          <p class="value">75</p>
+          <p class="info">Tracked from Github</p>
+        </div>
+        <div class="card red-gradient">
+          <h3>Followers</h3>
+          <p class="value">+245</p>
+          <p class="info">Just updated</p>
+        </div>
+      </section>
+
+        <!-- Chart Section -->
+        <div class="charts">
+            <div class="chart green">
+              <h3>Daily Sales</h3>
+              <p>55% increase in today sales</p>
+              <p>Updated 4 minutes ago</p>
+            </div>
+            <div class="chart yellow">
+              <h3>Email Subscriptions</h3>
+              <p>Last Campaign Performance</p>
+              <p>Campaign sent 2 days ago</p>
+            </div>
+            <div class="chart blue">
+              <h3>Completed Tasks</h3>
+              <p>Last Campaign Performance</p>
+              <p>Campaign event 2 days ago</p>
+            </div>
+          </div>
+      <!-- Tasks and Table -->
+      <section class="content-row">
+        <div class="tasks">
+          <h3>Tasks</h3>
+          <ul>
+            <li><input type="checkbox"> Sign contract...</li>
+            <li><input type="checkbox"> Email response...</li>
+            <li><input type="checkbox"> Fix website bugs...</li>
+            <li><input type="checkbox"> Update server...</li>
+          </ul>
+        </div>
+        <div class="table">
+          <h3>Employee Stats</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>Country</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dakota Rice</td>
+                <td>$36,738</td>
+                <td>Niger</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Minerva Hooper</td>
+                <td>$23,789</td>
+                <td>Curaçao</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
